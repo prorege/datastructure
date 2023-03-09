@@ -225,7 +225,13 @@ int main(){
 ```
 
 
-
-
+### Reference Avriable(alias)
+  int num = 100, m = 20;
+  int &num1 = n;
+  int &num2 = num1;
+  num1 = m; // same as n = m;
+- 이는 포인터의 개념과는 다르다. 
+   - 그런데 잘 모르겠음. 질문해야겠음
+  
 
 
