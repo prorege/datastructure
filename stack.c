@@ -85,3 +85,5 @@ void show()
             printf("%d\n", inp_array[i]);
     }
 }
+
+//굳이 pop하고 나서 기존 배열의 value를 비워줄 필요가 없다. 어차피 다음 push때 새로운 값으로 대체되니까.
